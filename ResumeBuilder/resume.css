@@ -1,0 +1,135 @@
+body {
+  color: white;
+  /* margin: 5%; */
+  /* display: flex; */
+  background-color: black;
+  /* justify-content: center;
+  border: 2px solid white; */
+}
+
+.MainContainer {
+  /* visibility: hidden; */
+  display: flex;
+  display: none;
+  justify-content: center;
+}
+
+.container1 img {
+  filter: invert();
+  width: 80%;
+  /* height: 30%; */
+}
+
+.container1 {
+  /* visibility: hidden; */
+  border: 2px solid white;
+  margin-left: 2%;
+  margin-top: auto;
+  margin-bottom: 5%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-weight: bolder;
+  gap: 13px;
+  font-size: larger;
+  flex-direction: column;
+  border-radius: 10px;
+  width: 28%;
+  height: 80%;
+  background-color: black;
+}
+
+.container a {
+  display: block;
+  margin: 12px;
+}
+
+.information {
+  text-align: center;
+}
+
+.RObjective {
+  border: 2px solid white;
+  border-radius: 6px;
+  margin: 4%;
+  padding: 1%;
+  color: white;
+  font-weight: bolder;
+
+  background-color: black;
+}
+
+.border {
+  border: 2px solid white;
+  border-radius: 6px;
+  margin: 4%;
+  padding: 1%;
+}
+
+.RObjective {
+  overflow: auto;
+}
+.RObjective h1 {
+  text-align: center;
+  font-weight: bolder;
+  height: auto;
+  overflow: auto;
+  background-color: blue;
+  border-radius: 6px;
+}
+.RWorkExperience1 {
+  overflow: auto;
+  border: 2px solid white;
+  border-radius: 6px;
+  margin: 4%;
+  padding: 1%;
+  font-weight: bolder;
+  background-color: black;
+}
+.RWorkExperience1 h1 {
+  overflow: auto;
+  text-align: center;
+  font-weight: bolder;
+  background-color: blue;
+  border-radius: 6px;
+}
+
+.RAcademicQualifications {
+  overflow: auto;
+}
+.RAcademicQualifications h1 {
+  overflow: auto;
+  background-color: blue;
+  border-radius: 6px;
+}
+
+.RWorkExperience {
+  overflow: auto;
+  font-weight: bolder;
+  color: white;
+}
+.RWorkExperience h1 {
+  overflow: auto;
+  background-color: blue;
+  border-radius: 6px;
+}
+
+.Print {
+  display: none;
+  /* visibility: hidden; */
+  border: none;
+  border-radius: 6px;
+  background-color: aqua;
+  display: block;
+  margin: auto;
+  height: 2%;
+  width: 15%;
+  padding: 1%;
+}
+
+.Print:hover {
+  /* display: none; */
+  visibility: hidden;
+  background-color: rgb(148, 236, 236);
+  cursor: pointer;
+}

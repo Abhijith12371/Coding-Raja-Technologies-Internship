@@ -1,0 +1,111 @@
+/* * {
+  margin: 0%;
+  padding: 0px;
+} */
+
+body *::after {
+  color: inherit;
+}
+
+div {
+  margin: 2%;
+}
+
+div input {
+  border-radius: 4px;
+  /* margin-top: 1%; */
+  padding: 4px;
+  width: 64%;
+  /* border: 2px solid rgb(211, 209, 209); */
+}
+
+.Address p {
+  color: black;
+  padding: 1%;
+  width: 64%;
+  border-radius: 6px;
+  height: 60vh !important;
+  border: 2px solid black;
+  background-color: white;
+}
+
+.heading {
+  text-align: center;
+}
+
+.PersonalInformation {
+  margin: 5%;
+  margin-top: 2%;
+  width: 75%;
+}
+
+.PersonalInformation h1 {
+  width: 100%;
+  margin: 2%;
+}
+.ProfessionalInformation h1 {
+  width: 30vw;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* display: none; */
+  align-content: center;
+  justify-content: center;
+  /* gap: 10%; */
+}
+
+.Professional p {
+  padding: 1%;
+  min-width: 100%;
+  height: auto;
+  overflow: auto;
+  border-radius: 6px;
+  height: 30vh !important;
+  border: 2px solid black;
+  background-color: white;
+}
+
+.addContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.add {
+  display: block;
+  background-color: blue;
+  border-radius: 6px;
+  margin: auto;
+  padding: 2%;
+  width: 15%;
+  border: none;
+  /* height: 5%; */
+}
+.add:hover {
+  padding: 2%;
+  border: 1px solid blue;
+  background-color: rgb(54, 54, 206);
+  cursor: pointer;
+}
+
+.objective h3 {
+  color: white;
+}
+
+.objective {
+  color: black;
+}
+
+.WorkExperience h3 {
+  color: white;
+}
+.WorkExperience {
+  color: black;
+}
+.AcademicQualification h3 {
+  color: white;
+}
+.AcademicQualification {
+  color: black;
+}
